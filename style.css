@@ -5,17 +5,10 @@
   font-family: sans-serif;
 }
 
-html {
-  background-color: ;
-  transform: skewX();
-  cursor: ;
-}
-
 body {
   background-image: url(./images/background\ ish.png);
   font-size: 18px;
   background-size: cover;
-  /* position: relative; */
 }
 
 nav {
@@ -71,7 +64,6 @@ main {
 #about-me img {
   border-radius: 50%;
   margin-left: 90px;
-  mb
 }
 
 #about-me h4 {
@@ -96,9 +88,6 @@ main {
   
 }
 
-#about-me ul li {
-  
-}
 .contact {
   display: flex;
   justify-content: center;
