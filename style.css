@@ -11,12 +11,6 @@ body {
   background-size: cover;
 }
 
-html {
-  transform: matrix();
-  text-transform: capitalize;
-  cursor: pointer;
-}
-
 nav {
   display: flex;
   align-items: center;
