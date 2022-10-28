@@ -1,4 +1,3 @@
-# assignment
 
 # week3
 
