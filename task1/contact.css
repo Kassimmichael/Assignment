@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: brown;
+}
+
+.contact {
+  display: inline-block;
+  margin: 40px;
+  width: 30%;
+}
+
+.contact h2 {
+  padding-bottom: 20px;
+  color: aquamarine;
+  font-size: 32px;
+}
+
+.info {
+  display: block;
+  width: 80%;
+  color: darkblue;
+  padding: 20px;
+  background-color: aquamarine;
+  border-radius: 7px;
+  margin-bottom: 10px;
+}
+
+.info input {
+  width: 100%;
+  padding: 6px;
+}
+
+.info textarea {
+  width: 100%;
+  padding: 5px;
+}
+
+button {
+  background-color: aquamarine;
+  padding: 10px 50px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+

@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500:700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'League Spartan', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./images/bg-pattern-top-desktop.svg), url(./images/bg-pattern-bottom-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+  background-color: hsl(0, 0%, 100%);
+  font-size: 15px;
+}
+
+.container {
+  margin: 70px 10%;
+  color: hsl(300, 43%, 22%);
+  /* width: 70%; */
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.top .dot {
+  width: 10px;
+  height: 10px;
+  background-color: hsl(300, 43%, 22%);
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.top h1 {
+  font-weight: 800;
+  font-size: 2.3rem;
+  padding-bottom: 20px;
+  word-spacing: 10px;
+}
+
+.top-left p {
+  font-weight: 600;
+  color: hsl(303, 10%, 53%);
+  padding-bottom: 50px;
+  line-height: 1.5;
+}
+
+.ratings {
+  background-color: hsl(300, 24%, 96%);
+  margin-bottom: 15px;
+  display: flex;
+  padding: 10px 20px;
+  gap: 20px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.ratings:nth-child(1) {
+  transform: translateX(-90px);
+}
+
+.ratings:nth-child(2) {
+  transform: translateX(-60px);
+}
+
+.ratings:nth-child(3) {
+  transform: translateX(-30px);
+}
+
+.ratings p {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.down {
+  display: flex;
+}
+
+.card {
+  background-color: hsl(300, 43%, 22%);
+  color: #fff;
+  margin-right: 20px;
+  border-radius: 6px;
+  padding: 30px 30px;
+  cursor: pointer;
+}
+
+.card:nth-child(1) {
+  transform: translateY(-10px);
+}
+
+.card:nth-child(2) {
+  transform: translateY(10px);
+}
+
+.card:nth-child(3) {
+  transform: translateY(30px);
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  padding-right: ;
+  padding-bottom: 20px;
+}
+
+.profile img {
+  border-radius: 50%; 
+  padding-right: ;
+}
+
+.profile .name {
+  padding-left: 20px;
+}
+
+.profile .name p {
+  color: hsl(333, 80%, 67%);
+  font-weight: 550;
+}
+
+.review {
+  font-weight: 550;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+
