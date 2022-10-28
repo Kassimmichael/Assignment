@@ -1,0 +1,45 @@
+
+
+body {
+  background-color: #1a1c28;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  gap: 10px;
+  height: 400px;
+  width: 600px;
+  margin: 50px auto;
+}
+
+.item {
+  gap: 10px;
+  /* background-color: ; */
+}
+
+.item1  {
+  background-color: #eb5020;
+  grid-column: 1 / 5;
+}
+
+.item2 {
+  grid-column: 5 / 7;
+  background-color: #ffa401;
+}
+
+.item3 {
+  grid-column: 1 / 4;
+  background-color: #05aa42;
+}
+
+.down {
+  display: grid;
+  gap: 10px;
+  grid-column: 4 / 7;
+}
+
+.item4 {
+  background-color: #01aefd;
+}
+
