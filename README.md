@@ -1,15 +1,23 @@
 # assignment
-This repository contains zuri x I4G training tasks from week 3 to week 5.
 
-Zuri week 5 task
+# Week 4 Task 
 
-For the week 5 task, we were asked to pull all week 3 to 5 task to a github repository called "assignments". The task should be in three branches named week 3, week 4, week 5
+### Task given by Isiaka Ab and Victoria Enebeli
 
-We were also asked to update our zuri profile with our github link and the assignment should be submitted using a giyhub link.
+### Task A 
 
-Week 3
-In week 3, we were asked to create a portfolio website, registration page and a login page which links to a success page. 
+We were asked to recreate a 3-column card design using CSS Flexbox  Layout
+- This task should be on the index.html file.
 
-Week 4 
-In this week, we were assigned flexbox and grid task from frontend mentor. 
+### Task B 
+Recreate the design using CSS Grid Layout  
+
+- This task should be on the grid.html file.
+
+
+
+## Skills
+
+- HTML 
+- CSS 
 
