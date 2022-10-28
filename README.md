@@ -28,11 +28,6 @@ The section of the login page includes:
 
 For the login page, if the user uses the correct format for email and password, the user should be navigated to the success page.
 
+## Live Url
 
-
-
-
-## Screenshots
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
+https://Zuri-Portfolio-Task.kassimmichael.repl.co
